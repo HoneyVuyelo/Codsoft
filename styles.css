@@ -1,0 +1,157 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: #afe6f8;
+    color: white;
+    padding: 40px 0;
+}
+
+.header .logo {
+    float: left;
+    font-size: 24px;
+    color: rgb(8, 1, 1);
+}
+
+.header .navigation {
+    float: right;
+}
+
+.header .navigation a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+
+.logo h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+.tagline {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+#about, #skills, #projects, #resume, #contact {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#about {
+    background-color: #f5cae5;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+}
+
+.about-image img {
+    border-radius: 6px;
+    width: 170px;
+    height: 170px;
+  cursor: pointer;
+  
+  line-height: 95px;
+  text-align: center;
+  transition-property: border-radius;
+  transition-duration: 1s;
+  transition-timing-function: linear;
+  
+}
+
+.about-image img:hover {
+  border-radius: 50%;
+}
+
+
+
+.about-text {
+    max-width: 600px;
+}
+
+.about-text h2 {
+    margin-bottom: 20px;
+    font-size: 2em;
+}
+#skills {
+background-color: #f5cae5;
+}
+#skills ul {
+    list-style: none;
+    padding: 0;
+}
+
+#skills li {
+    display: inline-block;
+    margin: 10px;
+    font-size: 1.2em;
+    background-color: #3299e2;
+    padding: 10px;
+    border-radius: 5px;
+}
+#projects {
+    background-color: #f5cae5;
+    }
+#projects .project-item {
+    margin-bottom: 30px;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(244, 16, 16, 0.2);
+    transition: 0.3s;
+    width: 60%;
+    height: 100%;
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+#projects img {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 5px;
+    
+  }
+
+
+
+
+#resume {
+    background-color: #f5cae5;
+    }
+#resume a {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #e22a5b;
+    color: #050505;
+    text-decoration: none;
+    border-radius: 5px;
+}
+#contact {
+    background-color: #f5cae5;
+    }
+#contact a {
+    color: #ee4e4e;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #6136f1;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
